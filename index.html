@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz-App</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png" >
+        <link rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+        <main>
+            <section class="quiz">
+
+                <div class="heading">
+                    <h3 class="main-heading">Quiz-App</h3>
+                    <p class="sub-heading">Just test your Javascript knowledge</p>
+                </div>
+
+                <!--Result Display-->
+                <div class="result hide">
+                    <p></p>
+                    <p class ="reload">
+                        <button onclick="document.location.reload(true)">Retry</button>
+                    </p>
+                </div>
+              
+                
+                <form class="form-quiz">
+                    <!---FIRST QUESTION-->
+                <div class="questions">
+                  <p>1. Choose the A option</p>
+                  <div class="option">
+                    <input type="radio" name="q1" value="A" checked>
+                    <label>A</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" name="q1" value="B" >
+                    <label>B</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" name="q1" value="C" >
+                    <label>C</label>
+                  </div>
+                  <div class="option">
+                    <input type="radio" name="q1" value="D" >
+                    <label>D</label>
+                  </div>
+                </div>
+
+                    <!---SECOND QUESTION-->
+                    <div class="questions">
+                        <p>2. Choose the B option</p>
+                        <div class="option">
+                          <input type="radio" name="q2" value="A" checked>
+                          <label>A</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q2" value="B" >
+                          <label>B</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q2" value="C" >
+                          <label>C</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q2" value="D" >
+                          <label>D</label>
+                        </div>
+                      </div>
+
+                      <!---THIRD QUESTION-->
+                    <div class="questions">
+                        <p>3. Choose the C option</p>
+                        <div class="option">
+                          <input type="radio" name="q3" value="A" checked>
+                          <label>A</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q3" value="B" >
+                          <label>B</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q3" value="C" >
+                          <label>C</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q3" value="D" >
+                          <label>D</label>
+                        </div>
+                      </div>
+
+                          <!---FORTH QUESTION-->
+                    <div class="questions">
+                        <p>4. Choose the D option</p>
+                        <div class="option">
+                          <input type="radio" name="q4" value="A" checked>
+                          <label>A</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q4" value="B" >
+                          <label>B</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q4" value="C" >
+                          <label>C</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q4" value="D" >
+                          <label>D</label>
+                        </div>
+                      </div>
+
+                      <!---FIFTH QUESTION-->
+                    <div class="questions">
+                        <p>5. Choose the E option</p>
+                        <div class="option">
+                          <input type="radio" name="q5" value="A" checked>
+                          <label>A</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q5" value="E" >
+                          <label>E</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q5" value="C" >
+                          <label>C</label>
+                        </div>
+                        <div class="option">
+                          <input type="radio" name="q5" value="D" >
+                          <label>D</label>
+                        </div>
+                      </div>
+                     <div class="submit">
+                        <input type="submit" name="submit" value="Submit">
+                     </div>
+                    </form>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
