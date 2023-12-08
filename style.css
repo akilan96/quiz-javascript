@@ -46,7 +46,7 @@
     padding: 10px 20px;
 }
 .reload button{
-    background-color: rgb(158, 158, 214);
+    background-color: darkorange;
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 0px 0px 5px 5px;
@@ -54,7 +54,7 @@
     border: 0px;
 }
 .reload button:hover{
-    background-color: rgb(68, 62, 75);
+    background-color: lightorange;
     cursor: pointer;
 }
 .hide{
