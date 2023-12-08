@@ -24,14 +24,14 @@
 .heading .main-heading{
     color:white;
     text-align: center;
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 500;
+    font-size: 30px;
 }
 .heading .sub-heading{
     color:white;
     text-align: center;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 20px;
 }
 .result{
     text-align: center;
@@ -63,7 +63,7 @@
 
 
 .form-quiz{
-    max-width: 1000px !important;
+    max-width: 1000px ;
     margin: auto;
    
 }
@@ -72,6 +72,7 @@
     padding: 10px 20px;
     border-radius: 10px;
     margin: 15px 0px;
+    font-size: 18px;
     
 }
 .submit{
